@@ -42,8 +42,22 @@ graph1, graph2, seed, nodes_to_match = utils.generate_file_graphs(file_path, ove
 | Data Name | Resource Link |
 |-----------|---------------|
 | Fb-pages-media    | [Fb-pages-media](https://example.com) |
-| Soc-brightkite    | [Soc-brightkite](http://networkrepository.com/soc-brightkite.php)) |
+| Soc-brightkite    | [Soc-brightkite](http://networkrepository.com/soc-brightkite.php) |
 | Soc-epinions    | [Soc-epinions](http://networkrepository.com/soc-epinions.php) |
+| Soc-gemsec-HU    | [Soc-gemsec-HU](http://networkrepository.com/soc-gemsec-HU.php) |
+| Soc-sign-Slashdot081106    | [Soc-sign-Slashdot081106](http://networkrepository.com/soc-sign-Slashdot081106.php) |
+| Deezer-europe-edges    | [Deezer-europe-edges](http://snap.stanford.edu/data/feather-deezer-social.html) |
+| bio-HS-CX    | [bio-HS-CX](https://networkrepository.com/bio-HS-CX.php) |
+| bio-grid-human    | [bio-grid-human](https://networkrepository.com/bio-grid-human.php) |
+| bio-grid-fruitfly    | [bio-grid-fruitfly](https://networkrepository.com/bio-grid-fruitfly.php) |
+| bio-grid-fission-yeast    | [bio-grid-fission-yeast](https://networkrepository.com/bio-grid-fission-yeast.php) |
+| bio-DM-HT    | [bio-DM-HT](https://networkrepository.com/bio-DM-HT.php) |
+| bio-yeast    | [bio-yeast](https://networkrepository.com/bio-yeast.php) |
+| bio-diseasome    | [bio-diseasome](https://networkrepository.com/bio-diseasome.php) |
+| bio-HS-HT    | [bio-HS-HT](https://networkrepository.com/bio-HS-HT.php) |
+| bio-DR-CX    | [bio-DR-CX](https://networkrepository.com/bio-DR-CX.php) |
+| bio-celegans-dir    | [bio-celegans-dir](https://networkrepository.com/bio-celegans-dir.php) |
+| bio-CE-GT    | [bio-CE-GT](https://networkrepository.com/bio-CE-GT.php) |
 
 [//]: # (This project meant to enable restoring all experiments done in IRMA paper.)
 

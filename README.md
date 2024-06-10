@@ -41,7 +41,7 @@ graph1, graph2, seed, nodes_to_match = utils.generate_file_graphs(file_path, ove
 
 | Data Name | Resource Link |
 |-----------|---------------|
-| Fb-pages-media    | [Fb-pages-media](https://example.com) |
+| Fb-pages-media("New Sites" Graph)    | [Fb-pages-media](https://snap.stanford.edu/data/gemsec-Facebook.html) |
 | Soc-brightkite    | [Soc-brightkite](http://networkrepository.com/soc-brightkite.php) |
 | Soc-epinions    | [Soc-epinions](http://networkrepository.com/soc-epinions.php) |
 | Soc-gemsec-HU    | [Soc-gemsec-HU](http://networkrepository.com/soc-gemsec-HU.php) |

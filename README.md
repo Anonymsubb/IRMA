@@ -42,8 +42,8 @@ graph1, graph2, seed, nodes_to_match = utils.generate_file_graphs(file_path, ove
 | Data Name | Resource Link |
 |-----------|---------------|
 | Fb-pages-media    | [Fb-pages-media](https://example.com) |
-| Soc-brightkite    | [Soc-brightkite]([https://example.com](http://networkrepository.com/soc-brightkite.php)) |
-| Soc-epinions    | [Soc-epinions]([https://example.com](http://networkrepository.com/soc-epinions.php)) |
+| Soc-brightkite    | [Soc-brightkite](http://networkrepository.com/soc-brightkite.php)) |
+| Soc-epinions    | [Soc-epinions](http://networkrepository.com/soc-epinions.php) |
 
 [//]: # (This project meant to enable restoring all experiments done in IRMA paper.)
 

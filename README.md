@@ -80,7 +80,7 @@ graph1, graph2, seed, nodes_to_match = utils.generate_file_graphs(file_path, ove
 | $score_t([u,v])$   | $score_t([u,v]) = marks_t([u,v]) - \epsilon \cdot \vert d_{1,u} - d_{2,v} \vert$ |
 | $R$   | Set of all vertex pairs of vertices that represent the same entity in both of the graphs |
 | $\delta$   | IRMA stops when $weight(M) \leq (1+ \delta)*weight(M_{i-1})$ |
-| $G(n,p)$   | $G(n,p)$ Erdos-Renyi graph, defined as a graph with $n$ vertices, where every edge of the possible $n \choose 2$ exists with a probability of $p$ |
+| $G(n,p)$   | $G(n,p)$ Erdos-Renyi graph, defined as a graph with $n$ vertices, where every edge of the possible $\binom{n}{2}$ exists with a probability of $p$ |
 | $s$   | $s$ is the fraction of edges sampled from each graph |
 | $\Lambda_t$   | The number of right pairs used to spread out marks until time $t$ |
 | $\Psi_t$   | The number of wrong pairs used to spread out marks until time $t$ |

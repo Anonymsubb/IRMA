@@ -77,8 +77,7 @@ graph1, graph2, seed, nodes_to_match = utils.generate_file_graphs(file_path, ove
 | $d_{q,v}$   | $d_{q,v}$ is the degree of a vertex $v$ in graph $q$ |
 | $marks_t(p)$   | $marks_t(p)$ is defined as the number of marks that $p$ received from other pairs until time $t$, where the unit of time is the insertion of one pair to $M$ |
 | $\epsilon$   | Infinitesimal $\epsilon > 0$ ,ensure that the if a pair has a higher $mark_t$ value than a different pair, it will also have a higher $score_t$ value |
-| $score_t([u,v])$   | $score_t([u,v]) = marks_t([u,v]) - \epsilon \cdot
-|d_{1,u} - d_{2,v}|$ |
+| $score_t([u,v])$   | $score_t([u,v]) = marks_t([u,v]) - \epsilon \cdot \vert d_{1,u} - d_{2,v} \vert$ |
 | $R$   | Set of all vertex pairs of vertices that represent the same entity in both of the graphs |
 | $\delta$   | IRMA stops when $weight(M) \leq (1+ \delta)*weight(M_{i-1})$ |
 | $G(n,p)$   | $G(n,p)$ Erdos-Renyi graph, defined as a graph with $n$ vertices, where every edge of the possible $n\choose 2$ exists with a probability of $p$ |

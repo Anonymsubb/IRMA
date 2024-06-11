@@ -59,52 +59,32 @@ graph1, graph2, seed, nodes_to_match = utils.generate_file_graphs(file_path, ove
 | bio-celegans-dir    | [bio-celegans-dir](https://networkrepository.com/bio-celegans-dir.php) |
 | bio-CE-GT    | [bio-CE-GT](https://networkrepository.com/bio-CE-GT.php) |
 
-\begin{table}[htbp]
-     \centering
-     \begin{tabular}{|c|p{6cm}|}
-     \hline
-     \textbf{Notation} & \textbf{Explanation} \\
-     \hline
-     GM & Graph matching (Graph Alignment)\\
-     $G$ & Graph \\
-     $V$ & Set of vertices of some graph $G$ \\
-     $E$ & Set of edges of some graph $G$ \\
-     $ST$ & $ST \subset V_1$ that one may limit the comparison of graphs
-for evaluation\\
-     $seed$ & $seed \subset V_1 \times V_2$ \\
-     $\deg(v)$ & Degree of vertex $v$ \\
-     $M$ & Bijection $M: V_1 \rightarrow V_2$, such that $M$ maps
-vertices in $V_1$ and $V_2$ \\
-     $p$ & A pair of vertices which each one from different graphs  \\
-     $(u,v)$ & An edge in graph G between vertices u and v \\
-     $weight(M)$  & $weight(M) = |\{(u,v) | (u,v)\in E_1, (M(u),M(v))
-\in E_2 \}|.$ \\
-     $d_{q,v}$ & $d_{q,v}$ is the degree of a vertex $v$ in graph $q$.\\
-     $marks_t(p)$ & $marks_t(p)$ is defined as the number of marks that
-$p$ received from other pairs until time $t$, where the unit of time is
-the insertion of one pair to $M$.\\
-     $\epsilon$ & Infinitesimal $\epsilon > 0$ ,ensure that the if a
-pair has a higher $mark_t$ value than a different pair, it will also
-have a higher $score_t$ value. \\
-     $score_t([u,v]) & score_t([u,v]) = marks_t([u,v]) - \epsilon \cdot
-|d_{1,u} - d_{2,v}|$ \\
-     $R$ & Set of all vertex pairs of vertices that represent the same
-entity in both of the graphs.\\
-     $\delta$ & IRMA stops when $weight(M) \leq (1+
-\delta)*weight(M_{i-1})$ \\
-     $G(n,p)$ & $G(n,p)$ Erdos-Renyi graph, defined as a graph with $n$
-vertices, where every edge of the possible $n\choose 2$ exists with a
-probability of $p$.\\
-     $s$ & $s$ is the fraction of edges sampled from each graph.\\
-     $\Lambda_t$ & The number of right pairs used to spread out marks
-until time $t$.\\
-     $\Psi_t$ & The number of wrong pairs used to spread out marks until
-time $t$.\\
-     \hline
-     \end{tabular}
-     \caption{Notation used in the document}
-     \label{tab:notation}
-\end{table}
+### Notation
+
+| Notation | Explanation |
+|-----------|---------------|
+| GM   | Graph matching (Graph Alignment) |
+| $G$   | Graph |
+| $V$   | Set of vertices of some graph $G$ |
+| $E$   | Set of edges of some graph $G$ |
+| $ST$   | $ST \subset V_1$ that one may limit the comparison of graphs for evaluation |
+| $seed$   | $seed \subset V_1 \times V_2$ |
+| $\deg(v)$   | Degree of vertex $v$ |
+| $M$   | Bijection $M: V_1 \rightarrow V_2$, such that $M$ maps vertices in $V_1$ and $V_2$ |
+| $p$   | A pair of vertices which each one from different graphs |
+| $(u,v)$   | An edge in graph G between vertices u and v |
+| $weight(M)$   | $weight(M) = |\{(u,v) | (u,v)\in E_1, (M(u),M(v)) \in E_2 \}|.$ |
+| $d_{q,v}$   | $d_{q,v}$ is the degree of a vertex $v$ in graph $q$ |
+| $marks_t(p)$   | $marks_t(p)$ is defined as the number of marks that $p$ received from other pairs until time $t$, where the unit of time is the insertion of one pair to $M$ |
+| $\epsilon$   | Infinitesimal $\epsilon > 0$ ,ensure that the if a pair has a higher $mark_t$ value than a different pair, it will also have a higher $score_t$ value |
+| $score_t([u,v])$   | $score_t([u,v]) = marks_t([u,v]) - \epsilon \cdot
+|d_{1,u} - d_{2,v}|$ |
+| $R$   | Set of all vertex pairs of vertices that represent the same entity in both of the graphs |
+| $\delta$   | IRMA stops when $weight(M) \leq (1+ \delta)*weight(M_{i-1})$ |
+| $G(n,p)$   | $G(n,p)$ Erdos-Renyi graph, defined as a graph with $n$ vertices, where every edge of the possible $n\choose 2$ exists with a probability of $p$ |
+| $s$   | $s$ is the fraction of edges sampled from each graph |
+| $\Lambda_t$   | The number of right pairs used to spread out marks until time $t$ |
+| $\Psi_t$   | The number of wrong pairs used to spread out marks until time $t$ |
 
 [//]: # (This project meant to enable restoring all experiments done in IRMA paper.)
 

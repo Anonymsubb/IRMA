@@ -73,7 +73,7 @@ graph1, graph2, seed, nodes_to_match = utils.generate_file_graphs(file_path, ove
 | $M$   | Bijection $M: V_1 \rightarrow V_2$, such that $M$ maps vertices in $V_1$ and $V_2$ |
 | $p$   | A pair of vertices which each one from different graphs |
 | $(u,v)$   | An edge in graph G between vertices u and v |
-| $weight(M)$   | `$weight(M) = \vert  \left\{ (u,v) \vert (u,v)\in E_1, (M(u),M(v)) \in E_2 \right\} \vert $` |
+| $weight(M)$   | $weight(M) = \vert  \{\{ (u,v) \vert (u,v)\in E_1, (M(u),M(v)) \in E_2 \}\} \vert $ |
 | $d_{q,v}$   | $d_{q,v}$ is the degree of a vertex $v$ in graph $q$ |
 | $marks_t(p)$   | $marks_t(p)$ is defined as the number of marks that $p$ received from other pairs until time $t$, where the unit of time is the insertion of one pair to $M$ |
 | $\epsilon$   | Infinitesimal $\epsilon > 0$ ,ensure that the if a pair has a higher $mark_t$ value than a different pair, it will also have a higher $score_t$ value |
